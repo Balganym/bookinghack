@@ -1,0 +1,69 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.city1{
+	background-image: url(../Assets/okinawa.png);
+	width: 407px;
+	height: 219px;
+	border-radius: 4px;
+}
+
+.city_overlay{
+font-weight: bold;
+font-size:1.3em;
+color: #fff;
+margin-bottom: 0px;
+padding:170px 15px 25px;
+left: 0;
+top: 65;
+background: rgba(0, 0, 0, .2);
+}
+
+.city2{
+	background-image: url(../Assets/izmir.png);
+	width: 407px;
+	height: 219px;
+	border-radius: 4px;
+}
+.city3{
+	background-image: url(../Assets/hawaii.png);
+	width: 407px;
+	height: 219px;
+	border-radius: 4px;
+}
+
+.surveyContent{
+	margin: 0 auto;
+	margin-top: 100px;
+	width: 80%;
+}
+
+.hello{
+	font-family: 'HelveticaNeue';
+	font-size: 19px;
+	font-weight: 500;
+	color: #3b3b3b;
+	margin-bottom: 40px;
+}
+
+.cities{
+	width: 100%;
+	display: flex;
+	flex-flow: column;
+	justify-content: flex-start;
+}
+
+.city{
+	width: 800px;
+	height: 600px;
+}
+
+.cityImg{
+	width: 400px;
+	height: 300px;
+}
+
+
+

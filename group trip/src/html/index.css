@@ -1,0 +1,429 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: whitesmoke;
+}
+
+/********** -------- GROPUP BUTTON ------- *************/
+
+
+.groupTripBtn{
+	width: 100%;
+	min-height: 100vh;
+	background-image: url('../img/bg.png');
+	background-size: 100%;
+}
+
+.myBtn{
+	position: absolute;
+	left: 360px;
+	top: 434px;
+	width: 120px;
+	height: 44px;
+	border: none;
+	border-radius: 5px;
+	font-size: 20px;
+	color: white;
+	background-color: #0075CF;
+}
+
+
+/*******------------ Group Trip email sending page ----------********/
+
+.header{
+	width: 100%;
+	height: 313px;
+	background-image: url('../img/headerBG.jpg');
+	background-size: 100%;
+	background-position-y: center;
+}
+
+.header:before{
+	display: block;   
+	width: 100%;
+	height: 313px;
+	background-color: rgba(0, 0, 0, 0.05);
+	position: relative;
+	content: "";
+}
+
+.header:after{
+	content: "Experience the world with the people who matter";
+	position: absolute;
+	top: 234px;
+	left: 150px;
+	font-family: HelveticaNeue;
+	font-size: 30px;
+	font-weight: 300;
+	color: #ffffff;
+}
+
+.navBar{
+	width: 100%;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	background-color: transparent;
+	top: 0px;
+	position: fixed;
+}
+
+.navBar2{
+	width: 100%;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	background-color:  #003580;
+	top: 0px;
+	position: fixed;
+}
+
+.logo{
+	margin-left: 66px;
+	width: 91px;
+	height: 15px;
+}
+
+.tripDetails{
+	padding-top: 40px;
+	background-color: whitesmoke;
+	height: auto;
+	display: flex;
+}
+
+.col-sm-2{
+	width: 20%;
+}
+
+.col-sm-6{
+	width: 70%;
+	padding-bottom: 20px;
+}
+
+.form{
+	display: flex;
+	flex-direction: row;
+	align-items: center;	
+	margin-bottom: 21px;
+	margin-top: 21px;
+}
+
+.form p{
+	margin-right: 48px;
+	font-family: HelveticaNeue;
+	font-size: 16px;
+	font-weight: 500;
+	color: #3b3b3b;
+}
+
+.form input{
+	height: 58px;
+	border: none;
+	font-size: 20px;
+	padding: 10px;
+}
+
+.tripTitle {
+	width: 339px;
+	height: 58px;
+}
+
+.section1{
+	margin-top: 42px;
+}
+
+.tripGoal{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.what-s-the-group-boo {
+	font-family: HelveticaNeue;
+	font-size: 16px;
+	font-weight: 500;
+	color: #3b3b3b;
+	margin-left: 16px;
+}
+
+.checkForm{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	height: 40px;
+	margin-top: 32px;
+}
+
+.booItems{
+	margin-left: 16px;
+	margin-right: 57px;
+	font-family: HelveticaNeue;
+	font-size:16px;
+	color: #3b3b3b;
+}
+
+.checks{
+	width: 30px;
+	height: 30px;
+	background-color: #ffffff;
+}
+
+.event{
+	margin-top: 42px;
+}
+
+.isEvent{
+	margin-top: 42px;
+	margin-left: 10px;
+}
+
+.emailForm{
+	display: flex;
+	flex-direction: column;
+	margin-top: 10px;
+}
+
+.guest{
+	font-family: HelveticaNeue;
+	font-size: 16px;
+	color: #3b3b3b;
+	padding-bottom: 10px;
+}
+
+.firstName{
+	font-family: HelveticaNeue;
+	font-size: 16px;
+	font-weight: 500;
+	color: #3b3b3b;
+}
+
+
+.sending{
+	width: 100%;
+	height: auto;
+	background-color: whitesmoke;
+}
+
+.start{
+	width: 495px;
+	height: 58px;
+	background-color: #009fe3;
+	font-family: HelveticaNeue;
+	font-size: 23px;
+	font-weight: 500;
+	color: #ffffff;
+}
+.startServey{
+	width: 700px;
+	height: 58px;
+	background-color: #009fe3;
+	font-family: HelveticaNeue;
+	font-size: 23px;
+	font-weight: 500;
+	color: #ffffff;
+}
+
+.addBtn{
+	width: 50px;
+	height: 20px;
+	margin-left: 20px;
+	background-color:  #009fe3;
+	border-radius: 2px;
+	border-color:  #009fe3;
+	text-align: center;
+	cursor: pointer;
+	color: #fff;
+}
+
+.emailInput{
+	/*margin-left: 10px;*/
+}
+
+.nameInput{
+	margin-left: 25px;
+}
+
+.listOf{
+	padding: 10px;
+}
+
+.name {
+	padding-left: 30px; 
+}
+
+.email{
+	padding-left: 30px; 
+}
+
+.newInput{
+
+	width: 100px;
+	margin-top: 200px;
+	margin-left: 200px;
+}
+
+.AB{
+	width: 80%;
+	margin: 20px auto;
+	font-family: HelveticaNeue;
+	font-size: 16px;
+	font-weight: 500;
+	color: #3b3b3b;
+}
+
+/*************----------Create form---------***************/
+
+.expanded {
+	margin: 0 auto;
+    border: solid 1px white;
+    margin-top: 44px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.option{
+	border-radius: 50%;
+	background: #000;
+	width: 25px;
+	height: 25px;
+	display: block;
+	color:#fff;
+	left: 5px
+}
+
+.contentForm{
+	width: 70%;
+	margin: 100px auto;
+
+}
+
+.whatShouldGroup{
+	font-family: HelveticaNeue;
+	font-size: 16px;
+	font-weight: 500;
+	color: #3b3b3b;
+}
+
+.label{
+	margin-left: 16px;
+	font-family: HelveticaNeue;
+	font-size: 16px;
+	color: #3b3b3b;
+}
+
+.city {
+	width: 339px;
+	height: 58px;
+	background-color: #ffffff;
+	font-size: 20px;
+	padding: 2px 10px;
+
+}
+
+.addCity{
+	width: 70px;
+	height: 30px;
+	margin-left: 30px;
+	background-color: #009fe3;
+	padding: 5px 20px;
+	color: white;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.ui{
+	margin-bottom: 20px;
+	display: flex;
+	align-items: center;
+}
+
+.dateSection{
+	display: flex;
+	flex-flow: row;
+	justify-content: flex-start;
+	margin-top: 20px;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.startEnd{
+	margin-right: 100px;
+}
+
+.date{
+	width: 276px;
+	height: 58px;
+	background-color: #ffffff;
+	font-size: 20px;
+	padding-left: 10px;
+}
+
+.addDate{
+	width: 88px;
+	height: 40px;
+	line-height: 30px;
+	text-align: center;
+	margin-left: 30px;
+	background-color: #009fe3;
+	padding: 5px 20px;
+	color: white;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.dateItems{
+	margin-bottom: 10px;
+	color: gray;
+}
+
+.formTo{
+	font-size: 20px;
+	font-weight: 300;
+}
+
+.span{
+	background-color: yellow;
+}
+
+.cityList{
+	padding: 10px;
+	border: 1px solid white;
+	margin: 0 auto;
+}
+
+/*************----------Confirmation---------***************/
+.confirm{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.confirmPng{
+	padding-top: 88px;	
+	width: 88px;
+	margin: 0 auto;
+}
+
+.thanks-for-your-input{
+	font-family: HelveticaNeue;
+	font-size: 16px;
+	font-weight: 500;
+	color: #3b3b3b;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+}
+
+.surveyFilling{
+	margin-left: 80%;
+	color: black;
+	font-size: 20px;
+	text-decoration: none;
+	margin-top: 300px;
+}
+
+
+
+
+
