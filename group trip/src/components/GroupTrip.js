@@ -61,11 +61,11 @@ export default class GroupTrip extends React.Component {
 
 	render() {
 
-		axios.get('http://127.0.0.1:5000/')
-		  .then(function (response) {
-		    console.log(response);
-		    console.log("okokokokokkoko")
-		})
+		// axios.get('http://127.0.0.1:5000/')
+		//   .then(function (response) {
+		//     console.log(response);
+		//     console.log("okokokokokkoko")
+		// })
 
 		const arr = this.state.infos;
 		var crList = arr.map((t) => (
@@ -94,7 +94,7 @@ export default class GroupTrip extends React.Component {
 			 			<form id="id" action="" method="">
 			 				<div className="form">
 								<p className="formItems">Name your trip</p>
-								<input type="text" className="tripTitle" onChange={(e) => this.nameChange(e)}/>
+								<input type="text" placeholder="Rebellama" className="tripTitle" onChange={(e) => this.nameChange(e)}/>
 							</div>
 							{crList}
 							<div className="emailFields">
@@ -117,9 +117,13 @@ class List extends React.Component{
 					<p className="guest">Guest {this.props.id  + 1}</p>
 					<div className="task">
 						<p className="name">{this.props.name}</p>
-						<p className="email">{this.props.email}</p>
+						<div className="withDelete">
+							<p className="email">{this.props.email}</p>
+							<p className="delete"> delete</p>
+						</div>
 					</div>
 				</div>
+				<hr/>
 			</div>
 		);
 	}

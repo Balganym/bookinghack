@@ -7,11 +7,11 @@ export default class Emails extends Component{
 			<div className="emailForm">
 				<div className="form">
 					<p className="firstName">First Name</p>
-					<input id="emails" value = {this.props.name} className="nameInput" type="text" onChange={(e)=>this.props.changeName(e)}/>
+					<input id="emails" placeholder="Jenny" value = {this.props.name} className="nameInput" type="text" onChange={(e)=>this.props.changeName(e)}/>
 				</div>
 				<div className="form">
 					<p className="Email">Email address</p>
-					<input type="email" className="emailInput" value = {this.props.email} onChange={(e)=>this.props.changeEmail(e)}/>
+					<input type="email" placeholder="example@gmail.com" className="emailInput" value = {this.props.email} onChange={(e)=>this.props.changeEmail(e)}/>
 					<a className="addBtn" onClick={()=>this.props.addPerson()}>add</a>
 				</div>
 			</div>

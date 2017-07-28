@@ -25,6 +25,7 @@ export default class App extends Component {
 		this.setState({
 			show: <CreatingForm showPage={() => this.confirmationPage()}/>
 		})
+
 	}
 	confirmationPage(){
 		this.setState({

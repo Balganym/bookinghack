@@ -161,18 +161,18 @@ export default class CreatingForm extends React.Component{
 							  <label className="label">Destination</label>
 							</div>
 						</div>
-
-						{cityList}
-						<div className="ui" disabled={this.state.disabled}>
-		  					<input className="city" placeholder="City" type="text" autoComplete="on" value = {this.state.curCity} onChange={(e)=>this.changeCity(e)} />
-							<a className="addCity" onClick={(e)=>this.addCity(e)}>add</a>
+						<div className="newDestin">
+							{cityList}
+							<div className="ui" disabled={this.state.disabled}>
+			  					<input className="city" placeholder="City" type="text" autoComplete="on" value = {this.state.curCity} onChange={(e)=>this.changeCity(e)} />
+								<a className="addCity" onClick={(e)=>this.addCity(e)}>add</a>
+							</div>
 						</div>
 						<div className="dates">
 							<div className="ui checkbox">
 							  <input type="checkbox" name="example" onClick={()=>this.dateSelection()} />
 							  <label className="label">Dates</label>
 							</div>
-							<hr></hr>
 							{dateList}
 							<div className="dateSection">
 								<div className="startEnd">
@@ -182,8 +182,9 @@ export default class CreatingForm extends React.Component{
 								<div className="startEnd">
 									<p className="dateItems">End date</p>
 									<input type="date" className="date" onChange={(e)=>this.changeEDate(e)}/>
+									<a className="addDate" onClick={(e)=>this.addDate(e)}>add</a>
 								</div>
-								<a className="addDate" onClick={(e)=>this.addDate(e)}>add</a>
+								
 							</div>
 
 						</div>
